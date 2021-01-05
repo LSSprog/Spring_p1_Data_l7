@@ -1,0 +1,22 @@
+ctreate table products (product_id bigserial primary key, title_fld varchar(255), price_fld int);
+insert into products (title_fld, price_fld) values
+('prod1', 34),
+('prod2', 87),
+('prod3', 56),
+('prod4', 367),
+('prod5', 546),
+('prod6', 245),
+('prod7', 98),
+('prod8', 65),
+('prod9', 16),
+('prod10', 73),
+('prod11', 58),
+('prod12', 107),
+('prod13', 34),
+('prod14', 22),
+('prod15', 89),
+('prod16', 156),
+('prod17', 5),
+('prod18', 46),
+('prod19',30),
+('prod20',100);
