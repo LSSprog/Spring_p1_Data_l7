@@ -12,5 +12,5 @@ import java.util.List;
 public interface ProductRepository extends JpaRepository<Product, Long> { // указываем скщность с которой работаем и какой тип у primary key
     List<Product> findAllByPriceGreaterThanEqual (int min_price);
     List<Product> findAllByPriceLessThanEqual (int max_price);
-    List<Product> findAllByPriceBetween (int min, int max);
+    List<Product> findAllByPriceBetween (Integer min, Integer max);
 }
