@@ -1,4 +1,4 @@
-ctreate table products (product_id bigserial primary key, title_fld varchar(255), price_fld int);
+create table products (product_id bigserial primary key, title_fld varchar(255), price_fld int);
 insert into products (title_fld, price_fld) values
 ('prod1', 34),
 ('prod2', 87),
